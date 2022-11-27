@@ -1,0 +1,90 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  h1 {
+    text-align: center;
+  
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .top {
+    background-color: white;
+    
+  }
+  
+  .item{
+    display: inline-block;
+  }
+  
+  .event {
+    text-align: center;
+  }
+  
+  .events{
+    margin: 50px;
+    text-align: center;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+   
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .navbar1 ul{
+      list-style: none;
+      background: #FBB041;
+      padding: 0;
+      margin: 0;
+      height: 85px;
+      text-align: center;
+  }
+  .navbar2 ul{
+      list-style: none;
+      background: #000000;
+      padding: 0;
+      margin: 0;
+      height: 5px;
+  }
+  .navbar1 li{
+      display: inline-block;
+  
+  }
+  .navbar1 a{
+      text-decoration: none;
+      color: #000000;
+      width: 250px;
+      display: block;
+      padding: 25px 20px;
+      font-weight: bold;
+      text-align: center;
+  }
+  .navbar1 a:hover{
+      background: #000000;
+      color: white;
+  
+  }
+  .navbar3 img{
+      width: 120px;
+      position: absolute;
+      left: 46%;
+      bottom: 80%;
+      display: inline-block;
+  }
